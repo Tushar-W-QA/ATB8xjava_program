@@ -1,2 +1,4 @@
-package sept.ex_04092024;public class test {
+package sept.ex_04092024;
+
+public class test {
 }
