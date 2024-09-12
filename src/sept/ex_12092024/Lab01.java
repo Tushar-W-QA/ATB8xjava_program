@@ -6,8 +6,10 @@ public class Lab01 {
         // primitive have two type datatype
         // 1. Boolean --> can have only true and false value
 
-        boolean Is_water_solid_or_liquid = false;
-        System.out.println(Is_water_solid_or_liquid);
+        boolean is_water_solid = false;
+        boolean is_water_liquid = true;
+        System.out.println(is_water_solid);
+        System.out.println(is_water_liquid);
 
     }
 }
