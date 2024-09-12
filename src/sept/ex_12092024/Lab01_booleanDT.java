@@ -1,6 +1,6 @@
 package sept.ex_12092024;
 
-public class Lab01 {
+public class Lab01_booleanDT {
     public static void main(String[] args) {
         // datatype and variables
         // primitive have two type datatype
