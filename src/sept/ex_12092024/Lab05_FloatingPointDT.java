@@ -1,6 +1,6 @@
 package sept.ex_12092024;
 
-public class Lab_05_FloatingPointDT {
+public class Lab05_FloatingPointDT {
 
     public static void main(String[] args) {
         double distance_between_earth_and_sun = 150000000000000000L;
