@@ -6,7 +6,7 @@ public class Assignment_16092024 {
 
         // Purchase mobile = 10000;
 
-        long delivery_charges = 200;
+        long delivery_charges = 300;
         float packaging_charges = 10000f;
 
         //long total_charges = delivery_charges + packaging_charges; // implicit --> JVM will not allowed
