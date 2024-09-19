@@ -7,7 +7,8 @@ public class Lab011_QnA {
 
      //   int enum =10;
      //   System.out.print(enum);
-     // Output ---> it shows us the error bcoz enum is keyword and java doesnot allow to use keyword as variable names
+     // Output ---> it shows us the error bcoz enum is keyword and
+        // java doesnot allow to use keyword as variable names
 
      
 
