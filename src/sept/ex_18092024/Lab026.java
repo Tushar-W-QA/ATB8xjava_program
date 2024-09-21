@@ -13,8 +13,5 @@ public class Lab026 {
         // 7        | result = 11   | 11
         // 8        | result = 11   | 11
 
-
-
-
     }
 }

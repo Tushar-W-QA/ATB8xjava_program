@@ -2,6 +2,7 @@ package sept.ex_12092024;
 
 public class Lab01_booleanDT {
     public static void main(String[] args) {
+
         // datatype and variables (Java is case-sensitive language)
         // primitive have two type datatype
         // 1. Boolean --> can have only true and false value (False or false both are different in java)

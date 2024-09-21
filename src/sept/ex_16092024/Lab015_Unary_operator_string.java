@@ -9,7 +9,7 @@ public class Lab015_Unary_operator_string {
         String first_name = "Tushar";
         String last_name = "Warad";
         int a = 10; // + --> unary operator
-        int b = 10;  // - --> unary operator
+        int b = - 10;  // - --> unary operator
 
         //System.out.println(first_name + last_name);
         //System.out.println(a);

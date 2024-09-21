@@ -15,7 +15,7 @@ public class Lab02_Variable_name {
         boolean tushar$warad = true;
         boolean tushar_warad = true;
         boolean $rj = false;
-    //  boolean public = true;  // public  is keyword so, we can't keep it as varibale name
+    //  boolean public = true;  // public  is keyword so, we can't keep it as variable name
 
         System.out.println(t);
         System.out.println($);
