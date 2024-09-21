@@ -5,6 +5,9 @@ public class Lab01_booleanDT {
         // datatype and variables (Java is caseSensitive language)
         // primitive have two type datatype (
         // 1. Boolean --> can have only true and false value (False or false both are different in java)
+        // 2. Numeric --> 1. Integral  --> Byte, short, int, long, char
+        //                2. Floating point --> float, double
+
         // write code formate
     //  datatype variable_name = variable_value
         boolean is_water_solid = false;
