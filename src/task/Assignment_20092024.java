@@ -28,14 +28,32 @@ public class Assignment_20092024 {
 //         String grade = (score >= 90) ? "A" : (score >= 80) ? "B" : (score >= 70) ? "C" : "D"  ;
 //         System.out.println(grade);
 
+//
+//        ✅ Triangle Classifier ( If)
+//         Write a program that classifies a triangle based on its side lengths.
+//         Given three input values representing the lengths of the sides, determine
+//         if the triangle is equilateral (all sides are equal),
+//         isosceles (exactly two sides are equal), or
+//         scalene (no sides are equal).
+//         Use an if-else statement to classify the triangle.
+//         side1, side2, side3 ->
+//
+        // 1. user input --> three sides,
+        // 2. basic code -->
+            // a,b,c are equals --> equilateral
+            // if two sides are equal --> isosceles
+            // no sides are equal --> scalene
+        // 3. write code
 
-
-
-
-
-
-
-
-
+        int a = 10;
+        int b = 05;
+        int c = 03;
+        if (a == b && a == c){
+            System.out.println("equilateral");
+        } else if (a == b || a == c || b == c) {
+            System.out.println("isosceles");
+        } else{
+            System.out.println("scalene");
+        }
     }
 }
