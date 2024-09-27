@@ -40,20 +40,47 @@ public class Assignment_20092024 {
 //
         // 1. user input --> three sides,
         // 2. basic code -->
-            // a,b,c are equals --> equilateral
-            // if two sides are equal --> isosceles
-            // no sides are equal --> scalene
+        // a,b,c are equals --> equilateral
+        // if two sides are equal --> isosceles
+        // no sides are equal --> scalene
         // 3. write code
+//
+//        int a = 05;
+//        int b = 03;
+//        int c = 05;
+//
+//        if (a > 0 && b > 0 && c > 0) {
+//
+//            if (a == b && a == c && b == c) {
+//                System.out.println("equilateral");
+//            } else if (a == b || a == c || b == c) {
+//                System.out.println("isosceles");
+//            } else {
+//                System.out.println("scalene");
+//            }
+//        } else {
+//            System.out.println("Negative value does not support");
+//        }
+//    }
 
-        int a = 10;
-        int b = 05;
-        int c = 03;
-        if (a == b && a == c){
-            System.out.println("equilateral");
-        } else if (a == b || a == c || b == c) {
-            System.out.println("isosceles");
-        } else{
-            System.out.println("scalene");
-        }
+
+        // leap year - 2024
+
+
+        int year = 1900;
+        boolean isLeapYear = false;
+
+        if (year % 4 == 0) {
+            if (year % 100 == 0) {
+                if (year % 400 == 0) {
+                    isLeapYear = true;
+                } else
+                    isLeapYear = false;
+            } else
+                isLeapYear = true;
+
+        } else
+            isLeapYear = false;
+        System.out.println(isLeapYear);
     }
 }
