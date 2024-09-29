@@ -1,5 +1,7 @@
 package task;
 
+import java.util.Scanner;
+
 public class Task_25092024 {
     public static void main(String[] args) {
 //        // print 10th table by using for loop
@@ -20,8 +22,8 @@ public class Task_25092024 {
 //        }
 
 
-//        // Factorial Number
-//
+        // Factorial Number
+
 //        int num = 5;
 //        int factorial = 1;
 //        for (int i = 1; i<=5; i++){
@@ -31,10 +33,24 @@ public class Task_25092024 {
 
         // -------------------------------------------------------------------------//
 
-        // Prime Number from 1 to 100. (for loop)
+// with scanner factorial number
+        Scanner sc =new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = sc.nextInt();
+        int factorial = 1;
+
+        for (int i =1; i <= num; i++){
+            factorial *= i;
+        }
+        System.out.println("Factorial number of "+ num + " is " + factorial);
+   }
+    // -------------------------------------------------------------------------//
 
 
-    }
+
+
+
+
 
 
 }
