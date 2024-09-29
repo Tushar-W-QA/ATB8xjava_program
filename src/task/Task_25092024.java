@@ -2,11 +2,39 @@ package task;
 
 public class Task_25092024 {
     public static void main(String[] args) {
-        // print 10th table by using for loop
+//        // print 10th table by using for loop
+//
+//        int num = 10;
+//        for (int i = 1; i <= 10; i++) {
+//            System.out.printf("%d * %d = %d%n", num, i, num * i);
 
-        int num = 10;
-        for (int i = 1; i <= 10; i++) {
-            System.out.printf("%d * %d = %d%n", num, i, num * i);
-        }
+
+        //---------------------------------------------------------------//
+//        // print 10th table by using while loop
+//        int num = 10;
+//        int i = 1;
+//        while (num <= 10){
+//            System.out.printf("%d X %d = %d%n", num, i, num*i );
+//            i++;
+//            break;
+//        }
+
+
+//        // Factorial Number
+//
+//        int num = 5;
+//        int factorial = 1;
+//        for (int i = 1; i<=5; i++){
+//            factorial *= i;
+//        }
+//        System.out.println("Factorial of "+ num + " is " + factorial);
+
+        // -------------------------------------------------------------------------//
+
+        // Prime Number from 1 to 100. (for loop)
+
+
     }
+
+
 }
