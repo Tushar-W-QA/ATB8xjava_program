@@ -13,21 +13,34 @@ public class Task_27092024 {
 //    }
 
 
+        // while loop:
+        int count = 0;
+        int number = 2;
+        while(count <= 5) {
+            if(number%2 == 0) {
+                System.out.println(number);
+                count++;
+            }
+            number++;
+        }
+
+
+
         // Write a Java program that calculates the sum of numbers from 1 to 100 using a while loop.
 
-        int i = 1;
-        int sum = 1;
-
-//        do {
-//            System.out.println("sum of numbers from 1 to 100 is --> " + sum);
+//        int i = 1;
+//        int sum = 0;
+//
+////        do {
+////            System.out.println("sum of numbers from 1 to 100 is --> " + sum);
+////            sum += i;
+////            i++;
+////        } while (i <= 100);
+//
+//        while (i <= 100){
 //            sum += i;
-//            i++;
-//        } while (i <= 100);
-
-        while (i <= 100){
-            sum += i;
-            i ++;
-            System.out.println("Sum of number 0-100 is " + sum);
+//            i ++;
+//            System.out.println("Sum of number 0-100 is " + sum);
         }
-    }
+
 }
