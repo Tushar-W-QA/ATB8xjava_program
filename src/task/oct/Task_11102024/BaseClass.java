@@ -3,8 +3,9 @@ package task.oct.Task_11102024;
 public class BaseClass {
     private String name;
     private int id;
+
     // Constructor
-    public BaseClass(){
+    public BaseClass() {
         System.out.println("DC --> BaseClass");
     }
 
@@ -13,7 +14,7 @@ public class BaseClass {
         this.id = id;
     }
 
-     // Getter and Setter
+    // Getter and Setter
 
 
     public String getName() {
@@ -21,9 +22,9 @@ public class BaseClass {
     }
 
     public void setName(String name, boolean isAuth) {
-        if(isAuth) {
+        if (isAuth) {
             this.name = name;
-        }else{
+        } else {
             System.out.println("Note Allowed");
         }
     }
@@ -33,20 +34,19 @@ public class BaseClass {
     }
 
     public void setId(int id) {
-        if(id>0) {
+        if (id > 0) {
             this.id = id;
-        }else {
+        } else {
             System.out.println("id should be greater than 0");
         }
     }
-
 
 
     void performGET() {
         System.out.println("Performing get");
     }
 
-    void performPOST(){
+    void performPOST() {
         System.out.println("Performing post");
     }
 
@@ -58,7 +58,7 @@ public class BaseClass {
         System.out.println("Performing put");
     }
 
-    void performDELETE(){
+    void performDELETE() {
         System.out.println("Performing delete");
     }
 }
